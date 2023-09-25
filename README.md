@@ -1,10 +1,13 @@
 # Work Day Scheduler
 
-## Your Task
+## Description
+This program gives an easy way to Time block will be color coded based on if they are in the past, present, or future.
 
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Usage
+Add assignments to each time slot and click the save button on the end. These will be saved locally and can be revisited.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+The following screenshot demonstrates the application functionality:
+![image](https://github.com/quinncombs/daily-planner/blob/main/images/schedule-ss.png)
 
 ## User Story
 
@@ -31,8 +34,3 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
-
-The following animation demonstrates the application functionality:
-
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
