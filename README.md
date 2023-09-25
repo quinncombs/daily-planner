@@ -1,9 +1,10 @@
 # Work Day Scheduler
 
 ## Description
-This program gives an easy way to Time block will be color coded based on if they are in the past, present, or future.
+This program gives an easy way to schedule your work day from 9-5. Time blocks will be color coded based on if they are in the past, present, or future. Inputs will be saved locally so the website can be revisted, closed or refreshed without losing data.
 
 ## Usage
+Deployed website: https://quinncombs.github.io/daily-planner/
 Add assignments to each time slot and click the save button on the end. These will be saved locally and can be revisited.
 
 The following screenshot demonstrates the application functionality:
