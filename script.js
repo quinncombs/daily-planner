@@ -3,9 +3,8 @@ var eventText;
 var eventTime;
 
   //Add code to display the current date in the header of the page.
-
-// var time = dayjs().format('hh:mm:ss');
-//   $("#currentDay").text(time);
+var currentDate = dayjs().format("LLLL")
+  $("#currentDate").text(currentDate);
 
 $(document).ready(function() {
   colorChange();
